@@ -59,6 +59,7 @@ Parameter | Description | Default
 `service.internalPort` | internal port for the service | `4180`
 `service.externalIPs` | external IP addresses | None:
 `service.loadBalancerIP` | Load Balancer IP address (to use with service.type LoadBalancer) | None:
+`service.loadBalancerSourceRanges` | Limit load balancer source IPs to list of CIDRs (where available)) | None:
 `service.type` | type of service | `ClusterIP`
 `service.annotations` | Kubernetes service annotations | None:
 `service.labels` | Kubernetes service labels | None:
